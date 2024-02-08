@@ -1,0 +1,22 @@
+class Bird
+{
+	public void fly()
+		{
+			System.out.println("flyyyy");
+		}
+	public static void main(String args[])
+		{
+			System.out.println(1);
+			Bird sp=new Bird();
+			sp.fly();
+			Animal dg=new Animal();
+			dg.run();
+		}
+}
+class Animal
+{
+	public void run()
+		{
+			System.out.println("runn");
+		}
+}
