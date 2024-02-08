@@ -1,0 +1,16 @@
+class Animal
+{
+	String colour;
+	int age;
+	public void dog(String c,int a)
+	{
+		colour=c;
+		age=a;
+		System.out.println(c+" "+a);
+	}
+	public static void main(String[] args)
+	{
+		Animal sp=new Animal();
+		sp.dog("BLACK",10);
+	}
+}
